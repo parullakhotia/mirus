@@ -34,6 +34,7 @@ public class MirusSourceConnector extends SourceConnector {
 
   private static final Logger logger = LoggerFactory.getLogger(MirusSourceConnector.class);
   private static final ConfigDef SOURCE_CONFIG_DEF = SourceConfigDefinition.configDef();
+  public static final boolean connectionSuccess = true;
 
   private final String version;
   private Thread kafkaMonitorThread;
